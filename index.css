@@ -1,0 +1,52 @@
+* {
+  font-family: "Segoe UI";
+}
+
+div#app {
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+p {
+  line-height: 22px;
+}
+
+.card {
+  padding: 12px 32px;
+  background-color: #dedede;
+  border-radius: 10px;
+  width: 50%;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 12px 27px;
+  border-radius: 3px;
+  border: none;
+  background-color: #b7299b;
+  color: #fff;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #a6258c;
+}
+
+button:active {
+  background-color: #92207c;
+}
+
+input, select {
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 12px 27px;
+  border-radius: 3px;
+  border: 1px solid rgb(149, 149, 149);
+  margin-top: 20px;
+  outline-color: #b7299b;
+}
